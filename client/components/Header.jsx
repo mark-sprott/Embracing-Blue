@@ -80,6 +80,7 @@ class Header extends React.Component {
                   <Link to="/anxiety" className="dropdown-item">Anxiety</Link>
                   <Link to="/depression" className="dropdown-item">Depression</Link>
                   <Link to="/prevention" className="dropdown-item">Prevention</Link>
+                  <Link to="/mindfulness" className="dropdown-item">Mindfulness</Link>
                 </div>
               </div>
             </div>

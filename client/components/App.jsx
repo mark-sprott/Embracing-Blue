@@ -12,6 +12,7 @@ import Resources from './resources/Resources'
 import Prevention from './resources/Prevention'
 import Anxiety from './resources/Anxiety'
 import Depression from './resources/Depression'
+import Mindfulness from './resources/Mindfulness'
 
 import Young from './identities/Young'
 import Old from './identities/Old'
@@ -60,6 +61,7 @@ class App extends React.Component {
             <Route className="column is-one-fifth" exact path="/anxiety" component={Anxiety} />
             <Route className="column is-half" exact path="/depression" component={Depression} />
             <Route className="column is-half" exact path="/prevention" component={Prevention} />
+            <Route className="column is-half" exact path="/mindfulness" component={Mindfulness} />
 
             <Route path='/posts' component={PostForm} />
             <Route path='/posts' component={Posts} />

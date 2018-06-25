@@ -25,6 +25,8 @@ export default class SiteMap extends React.Component {
                                     </li>
                                     <li><a href="/#/prevention" title="Prevention"> ◦ Preventing Suicide</a>
                                     </li>
+                                    <li><a herf="/#/mindfulness" title="Mindfulness">  ◦ Mindfulness</a>
+                                    </li>
                                 </ul></li>
                             <li><b>Identities</b>
                                 <ul>
